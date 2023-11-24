@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    background: url(imagens/fundo-id.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav img{
+    z-index: 20;
+    position: fixed;
+    max-width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.561);
+}
+.img1{
+    top: 2%;
+    right: 10px;
+}
+
+.img2{
+    top: 12%;
+    right: 10px;
+}
+
+.img3{
+    top: 22%;
+    right: 10px;
+}
+
+.img4{
+    top: 32%;
+    right: 10px;
+}
+
+.img5{
+    top: 42%;
+    right: 10px;
+}
+
+nav img:hover{
+    max-width: 60px;
+    transition-duration: 0.1s;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.561);
+}
+
+div#cell{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%);
+    padding-right: 50px;
+    background: url(imagens/frame-cell.png) no-repeat;
+    width: 310px;
+    height: 631px;
+}
+
+iframe{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-59% ,-51%);
+    height: 588px;
+    width: 272px;
+    border-radius: 30px;
+}
