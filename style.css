@@ -16,7 +16,7 @@ nav img{
     position: fixed;
     max-width: 50px;
     border-radius: 50%;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.561);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.73);
 }
 .img1{
     top: 2%;
@@ -40,6 +40,11 @@ nav img{
 
 .img5{
     top: 42%;
+    right: 10px;
+}
+
+.img6{
+    top: 52%;
     right: 10px;
 }
 
